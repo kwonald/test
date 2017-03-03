@@ -6,9 +6,9 @@ class WishDB extends mysqli {
     private static $instance = null;
     // db connection config vars
     private $user = "phpuser";
-    private $pass = "phpuserpw";
+    private $pass = "Pathlight123@";
     private $dbName = "wishlist";
-    private $dbHost = "localhost";
+    private $dbHost = "testwishlist.database.windows.net";
 
     //This method must be static, and must return an instance of the object if the object
     //does not already exist.
